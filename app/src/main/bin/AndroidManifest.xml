@@ -9,8 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <meta-data android:name="android.max_aspect" android:value="ratio_float"/>
-        <!--<meta-data android:name="android.max_aspect" android:value="2.1" />-->
         <activity android:name=".Acvity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,8 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Acvity.PreferenceActivity" />
-        <activity android:name=".Acvity.AlertActivity" />
     </application>
 
 </manifest>
